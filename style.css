@@ -1,0 +1,224 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* mobile first */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Lato, sans-serif;
+}
+
+/* paleta de colores:
+amarillo #FFBD33
+naranja oscuro #D8320D
+verde #66AB49
+marron violaceo #3B1F2B
+  */
+
+header {
+  text-align: center;
+  font-family: Libre Baskerville, serif;
+  color: #3B1F2B;
+  background: #FFBD33;
+}
+
+#logoIndex{
+  width: 150px;
+}
+
+#menu {
+height: 15px;
+padding-bottom: 10%;
+}
+
+
+#fondomenu {
+width: 100%;
+height: 30px;
+
+}
+
+#fondomenu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+ 
+}
+#fondomenu ul li a {
+width: 120px;
+height: 60px;
+margin-left: 1px;
+text-align: center;
+line-height: 30px;
+font-size: 13px;
+color: black;
+text-decoration: none;
+}
+
+#fondomenu ul li a:hover {
+  background-color:  #D8320D;
+  color: white;
+  font-weight: bold;
+  
+}
+.nav-item
+{
+  color: white;
+  font-weight: bold;
+}
+.imagenPrincipal {
+  width: 70%;
+  image-orientation: center;
+  background-attachment: fixed;
+  margin: 20px;
+  padding: 15px;
+   
+}
+
+.centro {
+  background-attachment: fixed;
+  background-size: contain;
+  text-align: center;
+  
+}
+
+footer {
+  text-align:center;
+  padding: 3px;
+  background-color: #FFBD33;
+  color: black;
+}
+
+.iconos {
+  width: 30px;
+  height: 30px;
+}
+
+fieldset {
+  border: none;
+}
+
+a:active {
+  border: 2px solid;
+  padding: 2px;
+}
+
+
+
+/* Imagenes de los productos */
+
+.conteiner, .emprendedores
+{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.prod-img
+{
+width: 210px;
+height: 250px;
+border-radius: 20px;
+}
+caja{
+    margin: 20px ;
+  padding:10px;
+
+}
+.caja p
+{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+ .botones-prod {
+    border: 0px solid#D8320D; 
+    padding: 11px; 
+    background-color:#D8320D; 
+    color: #ffffff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family:Lato, sans-serif ; 
+    border-radius: 50px; 
+    font-size: 11px
+    }
+/* Terminan los productos */
+h2{
+  text-align: center;
+}
+p quienes{
+  font-style: italic;
+  line-height: 25px;
+  font-size: 25px;
+  display: inline;
+}
+
+.titulo{
+  text-align: center;
+}
+.fondomenu{
+  display: block;
+}
+
+a{
+  text-decoration: none;
+  padding: 15px;
+  color: black;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  
+}
+
+/* como comprar */
+#listamenu h2
+{
+text-align:center; 
+}
+.img-pasos
+{
+    width: 220px;
+    height: 200px;
+   font-family:Lato, sans-serif ; 
+}
+#listamenu li
+{
+font-size: 20px;
+color: black;
+}
+/*  Termina como comprar */
+
+/* Responsive*/
+ @media (min-width:480px){
+  #menu
+   {
+     height: 150px;
+    padding-bottom: 10%;
+}
+}
+ @media (min-width:768px){
+
+    .contenedora{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 30px;
+    }
+  
+  }
+
+@media (min-width:1200px){
+    
+    .contenedora{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+        }
+}
+
+  
