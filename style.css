@@ -133,7 +133,7 @@ grid-template-rows: repeat(3, 1fr)
 }
 
 caja{
-  border: 2px solid  #D8320D;
+  box-shadow: 2px 2px 5px #999;
   margin: 20px ;
   padding:10px;
 
