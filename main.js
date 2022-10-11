@@ -6,7 +6,7 @@ alert("Bienvenidx a nuestra pagina " + nombreUsuario)
 console.log(nombreUsuario.nombreEmail.Edad);
 
 //PRODUCTOS
-/*class Producto {
+class Producto {
   constructor(nombre, precio, envio) {
     this.nombre = nombre.toUpperCase();
     this.precio = parseFloat(precio);
@@ -40,4 +40,11 @@ producto6.envio();
 
 //ENVIANOS TU CONSULTA
 let nombreUsuario = prompt("ingrese su nombre")
-let consulta = prompt("Escribenos tu consulta")*/
+let consulta = prompt("Escribenos tu consulta")
+
+const productos = 
+ { id: 1, producto: "Aros marrones", precio: 300 },
+ { id: 2, producto: "Aros violeta ", precio: 300 },
+ { id: 3, producto: "Aros" , precio: 300},
+const buscarProducto = productos.find(producto => producto.id === 2);
+console.log(buscarProducto);

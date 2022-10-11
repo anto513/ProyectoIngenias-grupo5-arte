@@ -123,8 +123,18 @@ width: 210px;
 height: 250px;
 border-radius: 20px;
 }
+
+#listamenu ol {
+  border: 2px black;
+display: grid;
+ grid-template-columns:33%  33% 33%;
+grid-template-rows: repeat(3, 1fr)
+
+}
+
 caja{
-    margin: 20px ;
+  border: 2px solid  #D8320D;
+  margin: 20px ;
   padding:10px;
 
 }
@@ -198,6 +208,34 @@ color: black;
      height: 150px;
     padding-bottom: 10%;
 }
+
+/* como comprar */
+#listamenu h2
+{
+text-align:center; 
+}
+.img-pasos
+{
+  padding:2px ;
+    width: 220px;
+    height: 200px;
+   font-family:Lato, sans-serif ; 
+}
+#listamenu li
+{
+  
+font-size: 20px;
+color: black;
+}
+ #listamenu ol {
+   border: 2px black;
+display: grid;
+  grid-template-columns:33%  33% 33%;
+grid-template-rows: repeat(3, 1fr)
+
+}
+/*  Termina como comprar */
+
 }
  @media (min-width:768px){
 
