@@ -214,7 +214,29 @@ a{
   text-align: center;
   
 }
+/* contactos */
+.contactos h3 
+{
 
+  text-align: center;
+  box-shadow: 2px 2px 4px #FFBD33;
+
+}
+.mapa
+{
+align-items: center;
+}
+.formulario
+{
+  justify-content: center;
+  
+box-shadow: 2px 2px 5px #D8320D;
+}
+.p1
+{
+  color: #D8320D;
+}
+/* termina contacto */
 /* como comprar */
 #listamenu h2
 {
