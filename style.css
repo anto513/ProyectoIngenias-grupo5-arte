@@ -164,7 +164,7 @@ grid-template-rows: repeat(3, 1fr)
 
 }
 
-caja{
+.caja{
   box-shadow: 2px 2px 5px #999;
   margin: 20px ;
   padding:10px;
