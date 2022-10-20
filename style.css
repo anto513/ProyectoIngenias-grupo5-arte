@@ -65,16 +65,8 @@ height: 30px;
   text-anchor: bold;
   background-color: #D8320D;
 }
-.switch
-{
-background: #343D5B;
-  border-radius: 1000px;
-  border:none;
- position: relative;
-  cursor: pointer;
-  display: flex;
-  outline: none;
-/*.ham {
+
+/*.ham 
   
 }
 
@@ -87,6 +79,7 @@ margin: 0;
 padding: 0;
  
 }
+
 #fondomenu ul li a {
 width: 120px;
 height: 60px;
