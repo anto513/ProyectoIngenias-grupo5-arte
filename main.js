@@ -32,12 +32,12 @@ producto5.envio();
 producto6.envio();
    
 
-const productos = 
+/* const productos = 
  { id: 1, producto: "Aros marrones", precio: 300 },
  { id: 2, producto: "Aros violeta ", precio: 300 },
  { id: 3, producto: "Aros" , precio: 300},
 const buscarProducto = productos.find(producto => producto.id === 2);
-console.log(buscarProducto);
+console.log(buscarProducto);*/
 
 //ENVIANOS TU CONSULTA
 
