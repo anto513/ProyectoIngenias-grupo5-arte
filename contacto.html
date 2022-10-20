@@ -69,13 +69,14 @@
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
-    <form>
+    <form id="formulario">
       <fieldset>
         <legend>Envianos tu consulta</legend>
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" placeholder="Nombre" /><br>
-        <label for="consulta"></label>Escribinos tu consulta:<br>
-        <input type="text" placeholder="" /><br>
+        <p>Email</p>
+        <input type="text" id="emailUsuario" /><br>
+        <p>Envianos tu consulta</p>
+        <input type="text" id="consultaUsuario" /><br>
+        <input type="submit" value = "Enviar" id="btn-form" >
       </fieldset>
     </form>
   </main>
