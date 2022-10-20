@@ -1,9 +1,5 @@
 //SUSCRIBIRSE INICIO
-let nombreUsuario = prompt("Ingrese su nombre")
-let nombreEmail = prompt("Ingrese su email")
-let Edad = prompt("Ingrese su edad")
-alert("Bienvenidx a nuestra pagina " + nombreUsuario)
-console.log(nombreUsuario.nombreEmail.Edad);
+
 
 //PRODUCTOS
 class Producto {
