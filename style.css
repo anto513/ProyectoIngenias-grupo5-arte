@@ -40,6 +40,38 @@ width: 100%;
 height: 30px;
 
 }
+/* Comienza menu */
+.enlaces-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 8vh;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  background-color: white;
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .main-menu{
+    flex-direction: row;
+  }
+}
+
+.enlaces-menu a:hover {
+  color: white;
+  text-anchor: bold;
+  background-color: #D8320D;
+}
+
+.ham {
+  
+}
+
+/* Termina menu*/
+
 
 #fondomenu ul {
 list-style: none;
